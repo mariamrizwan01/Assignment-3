@@ -1,13 +1,13 @@
 void main() {
-  String input = 'a';
+  String alphabet = "a";
 
-  if ((input >= 'a' && input <= 'z') || (input >= 'A' && input <= 'Z')) {
-    print('$input is an alphabet.');
-  }
-  else if (input >= '0' && input <= '9') {
-    print('$input is a digit.');
+  if ((alphabet >= 'a' && alphabet <= 'z') || (alphabet >= 'A' && alphabet <= 'Z')) {
+    print("$alphabet is an alphabet.");
+
+  else if (alphabet >= '0' && alphabet <= '9') {
+    print("$alphabet is a digit.");
   }
   else {
-    print('$input is a special character.');
+    print("$alphabet is a special character.");
   }
 }
